@@ -88,6 +88,7 @@
             this.Calculate.TabIndex = 18;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Num9
             // 
@@ -157,6 +158,7 @@
             this.Sqrt.TabIndex = 17;
             this.Sqrt.Text = "Sqrt";
             this.Sqrt.UseVisualStyleBackColor = true;
+            this.Sqrt.Click += new System.EventHandler(this.Sqrt_Click);
             // 
             // Pow
             // 
@@ -166,6 +168,7 @@
             this.Pow.TabIndex = 16;
             this.Pow.Text = "Pow 2";
             this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.Pow_Click);
             // 
             // Minus
             // 
@@ -175,6 +178,7 @@
             this.Minus.TabIndex = 15;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
+            this.Minus.Click += new System.EventHandler(this.Minus_Click);
             // 
             // Sum
             // 
@@ -184,6 +188,7 @@
             this.Sum.TabIndex = 14;
             this.Sum.Text = "+";
             this.Sum.UseVisualStyleBackColor = true;
+            this.Sum.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Num3
             // 
@@ -230,6 +235,7 @@
             this.Div.TabIndex = 13;
             this.Div.Text = "/";
             this.Div.UseVisualStyleBackColor = true;
+            this.Div.Click += new System.EventHandler(this.Div_Click);
             // 
             // Multi
             // 
@@ -239,6 +245,7 @@
             this.Multi.TabIndex = 12;
             this.Multi.Text = "*";
             this.Multi.UseVisualStyleBackColor = true;
+            this.Multi.Click += new System.EventHandler(this.Multi_Click);
             // 
             // Cal_Form
             // 
