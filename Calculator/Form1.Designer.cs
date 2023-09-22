@@ -52,16 +52,21 @@
             // 
             // Num0
             // 
+            this.Num0.BackColor = System.Drawing.Color.IndianRed;
+            this.Num0.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num0.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num0.Location = new System.Drawing.Point(38, 367);
             this.Num0.Name = "Num0";
             this.Num0.Size = new System.Drawing.Size(75, 71);
             this.Num0.TabIndex = 10;
             this.Num0.Text = "0";
-            this.Num0.UseVisualStyleBackColor = true;
+            this.Num0.UseVisualStyleBackColor = false;
             this.Num0.Click += new System.EventHandler(this.Num0_Click);
             // 
             // Dot
             // 
+            this.Dot.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dot.ForeColor = System.Drawing.Color.IndianRed;
             this.Dot.Location = new System.Drawing.Point(161, 367);
             this.Dot.Name = "Dot";
             this.Dot.Size = new System.Drawing.Size(75, 71);
@@ -72,6 +77,8 @@
             // 
             // Cbut
             // 
+            this.Cbut.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbut.ForeColor = System.Drawing.Color.IndianRed;
             this.Cbut.Location = new System.Drawing.Point(292, 367);
             this.Cbut.Name = "Cbut";
             this.Cbut.Size = new System.Drawing.Size(75, 71);
@@ -82,6 +89,8 @@
             // 
             // Calculate
             // 
+            this.Calculate.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Calculate.ForeColor = System.Drawing.Color.IndianRed;
             this.Calculate.Location = new System.Drawing.Point(413, 367);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(199, 71);
@@ -92,66 +101,86 @@
             // 
             // Num9
             // 
+            this.Num9.BackColor = System.Drawing.Color.IndianRed;
+            this.Num9.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num9.Location = new System.Drawing.Point(292, 283);
             this.Num9.Name = "Num9";
             this.Num9.Size = new System.Drawing.Size(75, 71);
             this.Num9.TabIndex = 9;
             this.Num9.Text = "9";
-            this.Num9.UseVisualStyleBackColor = true;
+            this.Num9.UseVisualStyleBackColor = false;
             this.Num9.Click += new System.EventHandler(this.Num9_Click);
             // 
             // Num8
             // 
+            this.Num8.BackColor = System.Drawing.Color.IndianRed;
+            this.Num8.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num8.Location = new System.Drawing.Point(161, 283);
             this.Num8.Name = "Num8";
             this.Num8.Size = new System.Drawing.Size(75, 71);
             this.Num8.TabIndex = 8;
             this.Num8.Text = "8";
-            this.Num8.UseVisualStyleBackColor = true;
+            this.Num8.UseVisualStyleBackColor = false;
             this.Num8.Click += new System.EventHandler(this.Num8_Click);
             // 
             // Num7
             // 
+            this.Num7.BackColor = System.Drawing.Color.IndianRed;
+            this.Num7.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num7.Location = new System.Drawing.Point(38, 283);
             this.Num7.Name = "Num7";
             this.Num7.Size = new System.Drawing.Size(75, 71);
             this.Num7.TabIndex = 7;
             this.Num7.Text = "7";
-            this.Num7.UseVisualStyleBackColor = true;
+            this.Num7.UseVisualStyleBackColor = false;
             this.Num7.Click += new System.EventHandler(this.Num7_Click);
             // 
             // Num6
             // 
+            this.Num6.BackColor = System.Drawing.Color.IndianRed;
+            this.Num6.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num6.Location = new System.Drawing.Point(292, 193);
             this.Num6.Name = "Num6";
             this.Num6.Size = new System.Drawing.Size(75, 71);
             this.Num6.TabIndex = 6;
             this.Num6.Text = "6";
-            this.Num6.UseVisualStyleBackColor = true;
+            this.Num6.UseVisualStyleBackColor = false;
             this.Num6.Click += new System.EventHandler(this.Num6_Click);
             // 
             // Num5
             // 
+            this.Num5.BackColor = System.Drawing.Color.IndianRed;
+            this.Num5.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num5.Location = new System.Drawing.Point(161, 193);
             this.Num5.Name = "Num5";
             this.Num5.Size = new System.Drawing.Size(75, 71);
             this.Num5.TabIndex = 5;
             this.Num5.Text = "5";
-            this.Num5.UseVisualStyleBackColor = true;
+            this.Num5.UseVisualStyleBackColor = false;
             this.Num5.Click += new System.EventHandler(this.Num5_Click);
             // 
             // Num4
             // 
+            this.Num4.BackColor = System.Drawing.Color.IndianRed;
+            this.Num4.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num4.Location = new System.Drawing.Point(38, 193);
             this.Num4.Name = "Num4";
             this.Num4.Size = new System.Drawing.Size(75, 71);
             this.Num4.TabIndex = 4;
             this.Num4.Text = "4";
-            this.Num4.UseVisualStyleBackColor = true;
+            this.Num4.UseVisualStyleBackColor = false;
             this.Num4.Click += new System.EventHandler(this.Num4_Click);
             // 
             // Sqrt
             // 
+            this.Sqrt.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sqrt.ForeColor = System.Drawing.Color.IndianRed;
             this.Sqrt.Location = new System.Drawing.Point(537, 283);
             this.Sqrt.Name = "Sqrt";
             this.Sqrt.Size = new System.Drawing.Size(75, 71);
@@ -162,6 +191,8 @@
             // 
             // Pow
             // 
+            this.Pow.Font = new System.Drawing.Font("Gill Sans MT", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pow.ForeColor = System.Drawing.Color.IndianRed;
             this.Pow.Location = new System.Drawing.Point(414, 283);
             this.Pow.Name = "Pow";
             this.Pow.Size = new System.Drawing.Size(75, 71);
@@ -172,6 +203,8 @@
             // 
             // Minus
             // 
+            this.Minus.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Minus.ForeColor = System.Drawing.Color.IndianRed;
             this.Minus.Location = new System.Drawing.Point(537, 193);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(75, 71);
@@ -182,6 +215,8 @@
             // 
             // Sum
             // 
+            this.Sum.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sum.ForeColor = System.Drawing.Color.IndianRed;
             this.Sum.Location = new System.Drawing.Point(414, 193);
             this.Sum.Name = "Sum";
             this.Sum.Size = new System.Drawing.Size(75, 71);
@@ -192,43 +227,57 @@
             // 
             // Num3
             // 
+            this.Num3.BackColor = System.Drawing.Color.IndianRed;
+            this.Num3.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num3.Location = new System.Drawing.Point(292, 104);
             this.Num3.Name = "Num3";
             this.Num3.Size = new System.Drawing.Size(75, 71);
             this.Num3.TabIndex = 3;
             this.Num3.Text = "3";
-            this.Num3.UseVisualStyleBackColor = true;
+            this.Num3.UseVisualStyleBackColor = false;
             this.Num3.Click += new System.EventHandler(this.Num3_Click);
             // 
             // Num2
             // 
+            this.Num2.BackColor = System.Drawing.Color.IndianRed;
+            this.Num2.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num2.Location = new System.Drawing.Point(161, 104);
             this.Num2.Name = "Num2";
             this.Num2.Size = new System.Drawing.Size(75, 71);
             this.Num2.TabIndex = 2;
             this.Num2.Text = "2";
-            this.Num2.UseVisualStyleBackColor = true;
+            this.Num2.UseVisualStyleBackColor = false;
             this.Num2.Click += new System.EventHandler(this.Num2_Click);
             // 
             // Num1
             // 
+            this.Num1.BackColor = System.Drawing.Color.IndianRed;
+            this.Num1.Font = new System.Drawing.Font("Gill Sans MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Num1.Location = new System.Drawing.Point(38, 104);
             this.Num1.Name = "Num1";
             this.Num1.Size = new System.Drawing.Size(75, 71);
             this.Num1.TabIndex = 1;
             this.Num1.Text = "1";
-            this.Num1.UseVisualStyleBackColor = true;
+            this.Num1.UseVisualStyleBackColor = false;
             this.Num1.Click += new System.EventHandler(this.Num1_Click);
             // 
             // Output
             // 
-            this.Output.Location = new System.Drawing.Point(38, 45);
+            this.Output.BackColor = System.Drawing.SystemColors.MenuText;
+            this.Output.Font = new System.Drawing.Font("Gill Sans MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Output.ForeColor = System.Drawing.Color.MistyRose;
+            this.Output.Location = new System.Drawing.Point(38, 42);
             this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(574, 22);
+            this.Output.Size = new System.Drawing.Size(574, 42);
             this.Output.TabIndex = 20;
             // 
             // Div
             // 
+            this.Div.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Div.ForeColor = System.Drawing.Color.IndianRed;
             this.Div.Location = new System.Drawing.Point(537, 104);
             this.Div.Name = "Div";
             this.Div.Size = new System.Drawing.Size(75, 71);
@@ -239,6 +288,8 @@
             // 
             // Multi
             // 
+            this.Multi.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Multi.ForeColor = System.Drawing.Color.IndianRed;
             this.Multi.Location = new System.Drawing.Point(414, 104);
             this.Multi.Name = "Multi";
             this.Multi.Size = new System.Drawing.Size(75, 71);
@@ -251,6 +302,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(682, 461);
             this.Controls.Add(this.Div);
             this.Controls.Add(this.Multi);
